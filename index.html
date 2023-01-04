@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <section class="background">
+      <section class="header-section">
+        <div class="container flex navbar">
+          <div>
+            <h2>Landing</h2>
+          </div>
+          <div class="navbar-link" id="nav-link">
+            <ul class="nav-links flex">
+              <li><a href="#" class="hover-link">Home</a> 
+              <li><a href="#" class="hover-link">Reviews</a></li>
+              <li><a href="#" class="hover-link">Reviews</a></li>
+              <li><a href="#" class="hover-link">Reviews</a></li>
+              <li><a href="#" class="hover-link">Pricing</a></li>
+              <li><a href="#" class="hover-link">FAQ</a></li>
+              <li><a href="#" class="hover-link getstartedbtn" id="gstbtn">Get Started</a></li></li>
+            </ul>
+          </div>
+          <a href="#" class="nav-toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="main-section flex container">
+        <div class="main-text flex">
+          <h1>Fly makes you faster</h1>
+          <p>
+            New free templates by <a href="#">uicookies.com</a>. For more
+            templates visit the site. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Rem, voluptates.
+          </p>
+          <button class="see-pricingbtn"><a href="#">SEE PRICING</a></button>
+        </div>
+        <div class="signup-form flex">
+          <h2>Sign Up For Free</h2>
+          <input type="text" placeholder="Full Name" class="input" />
+          <input type="email" placeholder="Email" class="input" />
+          <input type="password" placeholder="Password" class="input" />
+          <select name="Type" class="input">
+            <option value="Type">Type</option>
+          </select>
+          <button class="input signup-button"><a href="#">Register</a></button>
+        </div>
+      </section>
+    </section>
+    <script
+      src="https://kit.fontawesome.com/c020bfb50f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+    src="https://kit.fontawesome.com/c020bfb50f.js"
+    crossorigin="anonymous">
+  </script>
+
+ <script>
+  const toggleButton = document.getElementById('nav-toggle');
+  const navLinks = document.getElementById('nav-link');
+
+  toggleButton.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  })
+ </script>
+
+  </body>
+</html>
